@@ -1053,3 +1053,14 @@ footer .copyright {
   font-size: 12px;
   text-align: center;
 }
+/* SECOND CHALLENGE CARD - IMAGE ON RIGHT */
+
+.challenge-card:nth-child(2) .challenge-visual {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.challenge-card:nth-child(2) .challenge-content {
+  grid-column: 1;
+  grid-row: 1;
+}
