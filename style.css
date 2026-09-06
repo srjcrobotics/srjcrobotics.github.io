@@ -740,13 +740,15 @@ h1 em{
   color:#c4d0d5;
   font-size:17px;
   line-height:1.4;
+  }
+
   /* =========================
    CHALLENGE CARDS
 ========================= */
 
 .challenge-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 24px;
   width: 100%;
   max-width: 1200px;
