@@ -808,8 +808,11 @@ h1 em{
 .challenge-card:nth-child(2) .challenge-content {
   grid-column: 1;
   grid-row: 1;
+  align-self: end;
+  padding: 28px;
+  padding-bottom: 20px;
+  transform: translateY(145px);
 }
-
 /* IMAGE */
 
 .challenge-visual {
