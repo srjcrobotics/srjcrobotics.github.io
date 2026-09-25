@@ -800,6 +800,11 @@ h1 em{
     inset 0 0 30px rgba(88,216,255,.06);
 }
 /* SECOND CHALLENGE CARD - IMAGE ON RIGHT */
+.challenge-card:nth-child(2) {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 330px 1fr;
+}
+
 .challenge-card:nth-child(2) .challenge-visual {
   grid-column: 2;
   grid-row: 1;
@@ -807,12 +812,10 @@ h1 em{
 
 .challenge-card:nth-child(2) .challenge-content {
   grid-column: 1;
-  grid-row: 1;
-  align-self: end;
+  grid-row: 2;
   padding: 28px;
-  padding-bottom: 20px;
-  transform: translateY(145px);
 }
+
 /* IMAGE */
 
 .challenge-visual {
